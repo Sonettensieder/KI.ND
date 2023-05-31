@@ -3,7 +3,7 @@ import sounddevice as sd
 import pyttsx3
 import openai
 from scipy.io.wavfile import write
-import os
+# import os # See line 46
 
 engine = pyttsx3.init()
 fs = 44100  # Sample rate
